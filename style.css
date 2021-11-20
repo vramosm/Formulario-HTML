@@ -1,0 +1,33 @@
+.formulario{
+    width: 95%;
+}
+.formulario .titulo{
+    color: #002e8a;
+    font-size: 18px;
+}
+
+.formulario .titulo td{
+    padding-left: 0;
+}
+
+.formulario td{
+    padding-bottom: 5px;
+}
+
+.nombre-campo{
+    text-align: right;
+    padding-right: 50px;
+}
+
+footer{
+    background: #104594;
+    height: 125px;
+}
+
+.suscribirme{
+    background: #104594;
+    color: white;
+}
+input[type="submit"]:hover{
+    background: #002e8a;
+}

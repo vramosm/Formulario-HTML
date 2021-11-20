@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CABECERA -->
+    <header>
+        <div class="container">
+            <div class="col-10 pt-4 mx-auto text-center animate__bounceInLeft animate__animated">
+                <img src="images/logo.png" alt="Logo de CasaViva">
+            </div>
+        </div>
+            <div class="col-12 border border-top border-bottom py-3 mt-3 font-weight-bold text-center">
+                <a href="#" class="text-decoration-none text-dark mx-3">HOME</a>
+                <a href="#" class="text-decoration-none text-dark mx-3">CASAS</a>
+                <a href="#" class="text-decoration-none text-dark mx-3">LIVING</a>
+                <a href="#" class="text-decoration-none text-dark mx-3">SOLUCIONES</a>
+                <a href="#" class="text-decoration-none text-dark mx-3">CONTACTOS</a>
+                <a href="#" class="text-decoration-none text-dark mx-3">SUSCRIPCIONES Y TIENDA ONLINE</a>
+            </div>
+        </div>
+    </header>
+    <main class="mt-5 mb-5 mx-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 offset-1 mb-4">
+<!-- FORMULARIO -->                    
+                    <form method="POST" action="http://www.cursos-diseno.es/mi-mail.php">
+
+                        <table class="formulario">
+                            <tr class="titulo font-size-16">
+                                <td><strong>Datos de suscripcion</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2"></td>
+                                <td class="py-2">*Campos Obligatorios</td>
+                            </tr>
+                            <tr>
+                                <td class="nombre-campo">Nombre*</td>
+                                <td><input class="w-100" required type="text" name="nombre" autofocus></td>
+                            </tr>
+                            <tr>
+                                <td class="nombre-campo">Apellidos*</td>
+                                <td><input class="w-100" required type="text" name="apellidos"
+                                        placeholder="Los dos apellidos"></td>
+                            </tr>
+                            <tr>
+                                <td class="nombre-campo">Direccion*</td>
+                                <td><input class="w-100" required type="text" name="direccion"
+                                    placeholder=" Calle,nº,piso..."></td>
+                            </tr>
+                            <tr>
+                                <td class="nombre-campo">Codigo Postal*</td>
+                                <td> <input required type="text" name="cp"  maxlength="5"> </td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="nombre-campo">Ciudad*</td>
+                                <td><input required type="text" name="ciudad"  value="Madrid"> </td>
+                            </tr>
+                            <tr>
+                                <td class="nombre-campo">Provincia*</td>
+                                <td><select required name="provincia" class="form-control">
+                                        <option value="">- Madrid -</option>
+                                        <option value="15">A coruña</option>
+                                        <option value="1">Álava</option>
+                                        <option value="2">Albacete</option>
+                                        <option value="3">Alicante</option>
+                                        <option value="4">Almería</option>
+                                        <option value="33">Asturias</option>
+                                        <option value="5">Ávila</option>
+                                        <option value="6">Badajoz</option>
+                                        <option value="7">Baleares</option>
+                                        <option value="8">Barcelona</option>
+                                        <option value="9">Burgos</option>
+                                        <option value="10">Cáceres</option>
+                                        <option value="11">Cádiz</option>
+                                        <option value="39">Cantabria</option>
+                                        <option value="12">Castellón</option>
+                                        <option value="51">Ceuta</option>
+                                        <option value="13">Ciudad Real</option>
+                                        <option value="14">Córdoba</option>
+                                        <option value="16">Cuenca</option>
+                                        <option value="99">Extranjero</option>
+                                        <option value="17">Girona</option>
+                                        <option value="18">Granada</option>
+                                        <option value="19">Guadalajara</option>
+                                        <option value="20">Guipúzcoa</option>
+                                        <option value="21">Huelva</option>
+                                        <option value="22">Huesca</option>
+                                        <option value="23">Jaén</option>
+                                        <option value="26">La rioja</option>
+                                        <option value="35">Las palmas</option>
+                                        <option value="24">León</option>
+                                        <option value="25">Lleida</option>
+                                        <option value="27">Lugo</option>
+                                        <option value="28">Madrid</option>
+                                        <option value="29">Málaga</option>
+                                        <option value="52">Melilla</option>
+                                        <option value="30">Murcia</option>
+                                        <option value="31">Navarra</option>
+                                        <option value="32">Ourense</option>
+                                        <option value="34">Palencia</option>
+                                        <option value="36">Pontevedra</option>
+                                        <option value="37">Salamanca</option>
+                                        <option value="38">Santa cruz de tenerife</option>
+                                        <option value="40">Segovia</option>
+                                        <option value="41">Sevilla</option>
+                                        <option value="42">Soria</option>
+                                        <option value="43">Tarragona</option>
+                                        <option value="44">Teruel</option>
+                                        <option value="45">Toledo</option>
+                                        <option value="46">Valencia</option>
+                                        <option value="47">Valladolid</option>
+                                        <option value="48">Vizcaya</option>
+                                        <option value="49">Zamora</option>
+                                        <option value="50">Zaragoza</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td class="nombre-campo">Telefono*</td>
+                                <td> <input required type="text" name="telefono" placeholder="+34 123 456 789"> </td>
+                            </tr>
+
+                            <tr class="titulo font-size-16">
+                                <td class="pb-3 pt-5"><strong>Datos de usuario</strong></td>
+                            </tr>
+
+                            <tr>
+                                <td class="pr-3">Dirección de correo electrónico*</td>
+                                <td><input class="w-100" required type="text" name="email" autofocus></td>
+                            </tr>
+                            <tr>
+                                <td class="pr-3">Contraseña*</td>
+                                <td><input class="w-100" required type="password" id="password" name="password"></td>
+                            </tr>
+                            <tr>
+                                <td class="pr-3">Confirmación de la contraseña*</td>
+                                <td><input class="w-100" required type="password" id="repeatPassword" name="repeatPassword"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><span id="error"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td class="pt-3">
+                                    <label><input required type="checkbox" name="condiciones" value="Aceptada"> Acepto las 
+                                        <u>condiciones</u>*
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="hidden" name="destinatario" value="victor_ramos_tsapp1oa2021@cev.com">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td class="text-right"><input class="suscribirme" type="submit" value="Suscribirme"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="col-5 px-4"> <img class="img-fluid pt-2" src="images/revista.jpg"></div>
+            </div>
+        </div>
+    </main>
+
+<!-- FOOTER -->
+    <footer class="pt-4">
+        <div class="container">
+                <div class="col-12 text-center">
+                    <a href="#" class="text.decoration-none text-white mx-3">Contacto</a>
+                    <a href="#" class="text.decoration-none text-white mx-3">Condiciones Generales</a>
+                    <a href="#" class="text.decoration-none text-white mx-3">Condiciones y Gastos de Envio</a>
+                    <a href="#" class="text.decoration-none text-white mx-3">Politica de Privacidad</a>
+                    <a href="#" class="text.decoration-none text-white mx-3">Información de Contacto</a>
+                </div>
+        </div>
+    </footer>
+<!-- COMPROBACION CONTRASEÑA -->
+    <script>
+        $('#password, #repeatPassword').on('keyup', function () {
+        if ($('#password').val() != $('#repeatPassword').val()) {
+            $('#error').html('Las contraseñas no coinciden').css('color', 'red');
+        }
+        else{
+            $('#error').html(''); 
+        }});
+    </script>
+    
+</body>
+</html>
